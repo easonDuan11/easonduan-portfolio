@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540"><rect width="960" height="540" fill="#0a101f"/>
+  <rect width="960" height="540" fill="#0a101f"/>
+  <g stroke="#1e2a44" stroke-width="1.2">
+    <line x1="0" y1="110" x2="960" y2="110"/><line x1="0" y1="220" x2="960" y2="220"/>
+    <line x1="0" y1="330" x2="960" y2="330"/><line x1="0" y1="440" x2="960" y2="440"/>
+    <line x1="160" y1="0" x2="160" y2="540"/><line x1="320" y1="0" x2="320" y2="540"/>
+    <line x1="480" y1="0" x2="480" y2="540"/><line x1="640" y1="0" x2="640" y2="540"/><line x1="800" y1="0" x2="800" y2="540"/>
+  </g>
+  <circle cx="480" cy="270" r="150" fill="none" stroke="#2ab7ff" stroke-width="2" opacity=".5"/>
+  <circle cx="480" cy="270" r="120" fill="none" stroke="#2ab7ff" stroke-width="10" stroke-dasharray="600 154" stroke-linecap="round" opacity=".9"/>
+  <circle cx="480" cy="270" r="10" fill="#2ab7ff"/>
+  <path d="M480 150 L480 270 L590 270" fill="none" stroke="#2ab7ff" stroke-width="5"/>
+  <text x="480" y="300" font-size="44" font-weight="800" fill="#f4f4f6" text-anchor="middle" font-family="'Arial Black',Arial,sans-serif">320</text>
+  <text x="480" y="336" font-size="16" fill="#2ab7ff" text-anchor="middle" font-family="Arial" letter-spacing="3">KM/H</text>
+  <text x="60" y="70" font-size="30" font-weight="800" fill="#f4f4f6" font-family="'Arial Black',Arial,sans-serif" letter-spacing="5">CAR HUD UI</text>
+</svg>

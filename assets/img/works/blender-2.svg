@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540"><rect width="960" height="540" fill="#dcdcdc"/>
+  <rect width="960" height="540" fill="#dcdcdc"/>
+  <rect y="400" width="960" height="140" fill="#c8c8c8"/>
+  <line x1="0" y1="400" x2="960" y2="400" stroke="#b0b0b0" stroke-width="2"/>
+  <g transform="translate(480,415) scale(1,-.42)" opacity=".18"><g transform="translate(-480,0) scale(1)"><path d="M60 330 C72 316 96 310 124 308 L210 302 C242 252 284 226 332 224 L472 286 C494 296 514 312 524 324 L528 332 Z" fill="#77777f"/><circle cx="158" cy="330" r="38" fill="#0d0d13"/><circle cx="158" cy="330" r="17" fill="#55555f"/><circle cx="428" cy="330" r="38" fill="#0d0d13"/><circle cx="428" cy="330" r="17" fill="#55555f"/></g></g>
+  <g transform="translate(0,40) scale(1)"><path d="M60 330 C72 316 96 310 124 308 L210 302 C242 252 284 226 332 224 L472 286 C494 296 514 312 524 324 L528 332 Z" fill="#f2f2f4"/><circle cx="158" cy="330" r="38" fill="#0d0d13"/><circle cx="158" cy="330" r="17" fill="#9a9aa5"/><circle cx="428" cy="330" r="38" fill="#0d0d13"/><circle cx="428" cy="330" r="17" fill="#9a9aa5"/></g>
+  <text x="60" y="70" font-size="30" font-weight="800" fill="#33333c" font-family="'Arial Black',Arial,sans-serif" letter-spacing="5">CONCEPT CAR · CLAY</text>
+</svg>

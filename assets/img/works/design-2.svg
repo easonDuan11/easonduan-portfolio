@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540"><rect width="960" height="540" fill="#14141c"/>
+  <rect width="960" height="540" fill="#14141c"/>
+  <circle cx="760" cy="120" r="140" fill="#ff4d00" opacity=".12"/>
+  <circle cx="180" cy="460" r="110" fill="#2ab7ff" opacity=".1"/>
+  <g transform="translate(80,70)"><g transform="translate(0,0) scale(1)"><path d="M60 330 C72 316 96 310 124 308 L210 302 C242 252 284 226 332 224 L472 286 C494 296 514 312 524 324 L528 332 Z" fill="#c93400"/><circle cx="158" cy="330" r="38" fill="#0d0d13"/><circle cx="158" cy="330" r="17" fill="#3a3a46"/><circle cx="428" cy="330" r="38" fill="#0d0d13"/><circle cx="428" cy="330" r="17" fill="#3a3a46"/></g></g>
+  <rect x="640" y="180" width="240" height="160" rx="10" fill="#0d0d13" stroke="#2a2a36" stroke-width="2"/>
+  <text x="760" y="240" font-size="24" font-weight="800" fill="#f4f4f6" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif">前后对比</text>
+  <text x="760" y="276" font-size="15" fill="#9a9aa5" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif">原图 → 精修</text>
+  <line x1="700" y1="300" x2="820" y2="300" stroke="#ff4d00" stroke-width="3"/>
+  <text x="60" y="70" font-size="30" font-weight="800" fill="#f4f4f6" font-family="'Arial Black',Arial,sans-serif" letter-spacing="5">RETOUCH</text>
+</svg>

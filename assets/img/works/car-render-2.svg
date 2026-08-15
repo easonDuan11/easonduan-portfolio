@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540"><rect width="960" height="540" fill="#2a1a4a"/>
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1a4a"/><stop offset=".45" stop-color="#7a2b3e"/><stop offset=".8" stop-color="#e0653a"/><stop offset="1" stop-color="#ffb35c"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#sky2)"/>
+  <circle cx="480" cy="360" r="92" fill="#ffd9a0"/>
+  <circle cx="480" cy="360" r="120" fill="#ffd9a0" opacity=".25"/>
+  <path d="M0 470 Q160 380 340 440 Q520 495 700 430 Q830 390 960 450 L960 540 L0 540 Z" fill="#3a1f33"/>
+  <path d="M0 505 Q200 440 400 490 Q600 540 800 490 Q880 470 960 495 L960 540 L0 540 Z" fill="#2a1626"/>
+  <g transform="translate(210,100) scale(1)"><path d="M60 330 C72 316 96 310 124 308 L210 302 C242 252 284 226 332 224 L472 286 C494 296 514 312 524 324 L528 332 Z" fill="#170f18"/><circle cx="158" cy="330" r="38" fill="#0d0d13"/><circle cx="158" cy="330" r="17" fill="#c9a06a"/><circle cx="428" cy="330" r="38" fill="#0d0d13"/><circle cx="428" cy="330" r="17" fill="#c9a06a"/></g>
+  <ellipse cx="600" cy="442" rx="260" ry="16" fill="#000" opacity=".35"/>
+  <text x="60" y="60" font-size="30" font-weight="800" fill="#f4f4f6" font-family="'Arial Black',Arial,sans-serif" letter-spacing="6">DESERT DUSK</text>
+</svg>

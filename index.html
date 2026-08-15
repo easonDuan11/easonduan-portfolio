@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EasonDuan · 数字媒体艺术作品集</title>
+  <meta name="description" content="数字媒体艺术学生作品集：AI 内容创作 × 汽车影像 × 三维设计" />
+  <!-- 字体：Anton(标题) / Noto Sans SC(中文正文) / Space Mono(标签) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Noto+Sans+SC:wght@400;500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/avatar.svg" />
+</head>
+<body>
+
+  <!-- ========== 导航 ========== -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="#home"><span class="dot"></span><span id="logoName">EasonDuan</span><span class="sub">/PORTFOLIO</span></a>
+      <button class="nav-burger" id="navBurger" aria-label="菜单"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">首页</a>
+        <a href="#project">IP 项目</a>
+        <a href="#works">作品</a>
+        <a href="#skills">技能</a>
+        <a href="#about">关于</a>
+        <a href="#contact" class="nav-cta">联系我</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== 首页 ========== -->
+  <header class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-car" aria-hidden="true">
+      <img src="assets/img/hero/hero-car.svg" alt="" />
+    </div>
+    <div class="container hero-content">
+      <span class="hero-kicker"><span class="pulse"></span>PORTFOLIO · 2026</span>
+      <h1 class="hero-name" id="heroName"></h1>
+      <p class="hero-role" id="heroRole"></p>
+      <p class="hero-tagline" id="heroTagline"></p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#project">看代表项目 <span class="arr">→</span></a>
+        <a class="btn btn-ghost" href="#works">浏览全部作品</a>
+      </div>
+      <div class="hero-meta" id="heroMeta"></div>
+    </div>
+    <div class="scroll-hint">SCROLL</div>
+  </header>
+
+  <!-- ========== 跑马灯 ========== -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track" id="marqueeTrack"></div>
+  </div>
+
+  <main>
+    <!-- ========== IP 项目 ========== -->
+    <section class="section" id="project">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="sec-no">01 / FEATURED PROJECT</div>
+          <h2 class="sec-title">AI 生成 IP 形象 <span class="thin">· 完整创作记录</span></h2>
+          <p class="sec-desc">从一句话提示词到一个完整 IP：形象、表情包、周边、制作流程，以及它背后关于 AI 与创作的思考。</p>
+        </div>
+        <div class="ip-hero" id="ipHero"></div>
+        <div id="ipExpressions"></div>
+        <div id="ipMerch"></div>
+        <div id="ipProcess"></div>
+        <div id="ipInsight"></div>
+      </div>
+    </section>
+
+    <!-- ========== 作品集 ========== -->
+    <section class="section section-alt" id="works">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="sec-no">02 / WORKS</div>
+          <h2 class="sec-title">作品集 <span class="thin">· 数字媒体工具应用</span></h2>
+          <p class="sec-desc">视频剪辑、汽车渲染（AI 优化）、三维建模、动效特效与修图设计。点击作品查看详情。</p>
+        </div>
+        <div class="filter-bar reveal" id="filterBar"></div>
+        <div class="works-grid" id="worksGrid"></div>
+      </div>
+    </section>
+
+    <!-- ========== 技能 ========== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="sec-no">03 / TOOLBOX</div>
+          <h2 class="sec-title">技能与工具 <span class="thin">· 我的数字工具箱</span></h2>
+          <p class="sec-desc">以 Blender 为主的建模、以 PR / 剪映为主的剪辑、以 AE 为主的特效、以 PS 为主的修图，以及 AI 创作工作流。</p>
+        </div>
+        <div class="skills-grid" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ========== 关于 ========== -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="sec-no">04 / ABOUT</div>
+          <h2 class="sec-title">关于我 <span class="thin">· 速度与创意的信徒</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-photo reveal">
+            <img id="aboutAvatar" src="assets/img/avatar.svg" alt="头像占位图 · 替换为你的照片" />
+            <div class="frame"></div>
+          </div>
+          <div class="about-text reveal d1" id="aboutText"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 联系 ========== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="sec-no">05 / CONTACT</div>
+          <h2 class="sec-title">联系我 <span class="thin">· 一起聊聊创意</span></h2>
+        </div>
+        <div class="contact-box reveal" id="contactBox"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== 页脚 ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="logo"><span class="dot"></span><span id="logoNameFooter">EasonDuan</span><span class="sub">/PORTFOLIO</span></div>
+      <p id="footerText"></p>
+      <a class="up" href="#home">↑ 回到顶部</a>
+    </div>
+  </footer>
+
+  <!-- ========== 作品详情弹窗 ========== -->
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="关闭">✕</button>
+      <div class="modal-media" id="modalMedia"></div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

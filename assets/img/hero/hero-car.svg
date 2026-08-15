@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500"><rect width="1600" height="500" fill="transparent"/>
+  <defs>
+    <linearGradient id="carFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff7a2f"/><stop offset="1" stop-color="#ff3d00"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(60,-20)"><g transform="translate(0,0) scale(1.5)"><path d="M60 330 C72 316 96 310 124 308 L210 302 C242 252 284 226 332 224 L472 286 C494 296 514 312 524 324 L528 332 Z" fill="url(#carFill)"/><circle cx="158" cy="330" r="38" fill="#0d0d13"/><circle cx="158" cy="330" r="17" fill="#8a8a92"/><circle cx="428" cy="330" r="38" fill="#0d0d13"/><circle cx="428" cy="330" r="17" fill="#8a8a92"/></g></g>
+</svg>
